@@ -9,7 +9,7 @@
 
 ## 📌 Schedule
 ### 📅 2024.01.03 ~ 2024.01.31
-- [Do it! 알고리즘 코딩테스트 with JAVA](https://www.inflearn.com/course/%EB%91%90%EC%9E%87-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%B0%94/dashboard) 강의를 완강한다.
+- [Do it! 알고리즘 코딩테스트 with Python](https://www.inflearn.com/course/두잇-알고리즘-코딩테스트-파이썬) 강의를 완강한다.
 
 ### 📅 2024.02.01 ~
 - 정리한 개념을 바탕으로 추가 연습 문제를 풀이한다.
@@ -35,12 +35,12 @@
 
  📂algorithm_workbook  
  ┣ 📂Q[Question_Num]  
- ┃ ┣ 👩‍💻[Title].java  
+ ┃ ┣ 👩‍💻[Title].py  
  ┃ ┗ 📝[Title].md  
  ┗ 📝templete.md
 <br><br>
 
 1. 개인 Repo 안에 `algorithm_lecture_summary` 와 `algorithm_workbook` 디렉토리를 구분한다.
 2. `algorithm_lecture_summary` - `Section[Section_Num]` - `[Title].md` 에 강의 내용을 필기한다.
-3. `algorithm_workbook` - `Q[Question_Num]` - `[Title].java` 에 문제 풀이 코드를 작성한다.
+3. `algorithm_workbook` - `Q[Question_Num]` - `[Title].py` 에 문제 풀이 코드를 작성한다.
 4. `algorithm_workbook` - `Q[Question_Num]` - `[Title].md` 에 풀이 과정, 사용한 개념, 참고 link, 느낀 점 등을 작성한다.
