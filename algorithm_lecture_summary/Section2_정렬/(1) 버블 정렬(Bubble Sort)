@@ -1,0 +1,26 @@
+## Algorithm Lecture Summary - Section2 (1) 버블 정렬
+
+### ✏️ Study
+
+### 💡 정의
+
+- 데이터의 인접 요소끼리 비교하고, swap 연산을 수행하며 정렬하는 방식
+
+### 💡 핵심 이론
+
+- 두 인접한 데이터의 크기를 비교해 정렬하는 방법
+- 시간복잡도 O(n^2) → 다른 정렬 알고리즘보다 속도 느림
+- 루프를 돌면서 인접한 데이터 간의 swap 연산으로 정렬
+- 정렬 과정
+    
+    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/02496b9c-c710-488c-bc29-c687bcaa8043/6c22af02-2a0e-45de-8a0d-46e8d2748ddb/Untitled.png)
+    
+    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/02496b9c-c710-488c-bc29-c687bcaa8043/c65325f2-d1ed-41de-a066-22b30ed7120c/Untitled.png)
+    
+    - 루프 하나를 돌 때마다 가장 끝의 원소가 픽스됨
+    - 왜 시간복잡도가 O(n^2)?
+        - 루프 1번당 N개의 원소 체크 * N번 루프
+
+### 💬 Comment
+
+240116화 버블정렬 강의 정리

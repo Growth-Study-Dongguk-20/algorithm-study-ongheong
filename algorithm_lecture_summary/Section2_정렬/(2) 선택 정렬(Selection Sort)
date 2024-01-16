@@ -1,0 +1,29 @@
+## Algorithm Lecture Summary - Section2 (2) 선택 정렬
+
+### ✏️ Study
+
+### 💡 정의
+
+- 대상 데이터에서 최대/최소 데이터를 데이터가 나열된 순으로 찾아가며 선택하는 방법
+- 구현 방법 복잡, 시간복잡도 O(n^2)로 효율X → 코테에서는 많이 사용X
+
+### 💡 핵심 이론
+
+- 최솟값 또는 최댓값을 찾기
+- 남은 정렬 부분의 가장 앞에 있는 데이터와 swap
+- 수행 방식
+    
+    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/02496b9c-c710-488c-bc29-c687bcaa8043/5d974175-dd7e-43e9-ae5d-c08cd6711e57/Untitled.png)
+    
+    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/02496b9c-c710-488c-bc29-c687bcaa8043/99cd87c7-050b-4109-875c-14a2fc3456ed/Untitled.png)
+    
+    - index++ → 하나씩 뒤로 가서 남은 정렬 부분 줄이기
+    - 왜 시간복잡도가 O(n^2)?
+        - 루프당 탐색해야 하는 원소 수 : n, (n-1), (n-2), …, 1, 0
+        - 루프 수 : n
+        - 상수는 버리기
+        
+
+### 💬 Comment
+
+240116화 선택정렬 강의 정리
